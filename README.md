@@ -30,9 +30,10 @@ $$
 k(\mathbf{x}, \mathbf{x}') = \mathbb{E}[(f(\mathbf{x}) - m(\mathbf{x}))(f(\mathbf{x}') - m(\mathbf{x}'))]
 $$
 
-Given a dataset $D = \{(\mathbf{x}_i, y_i) | i = 1, \ldots, n\}$, where $\mathbf{x}_i$ is the input and $y_i$ is the output, the goal is to predict the output $y_*$ at a new input $\mathbf{x}_*$.
+Given a dataset \( D = \{(\mathbf{x}_i, y_i) \mid i = 1, \ldots, n\} \), where \( \mathbf{x}_i \) is the input and \( y_i \) is the output, the goal is to predict the output \( y_* \) at a new input \( \mathbf{x}_* \).
 
-Given a dataset $$\( D = \{(\mathbf{x}_i, y_i) | i = 1, \ldots, n\} \)$$, where $\( \mathbf{x}_i \)$ is the input and $\( y_i \)$ is the output, the goal is to predict the output $\( y_* \)$ at a new input $\( \mathbf{x}_* \)$.
+
+Given a dataset $\( D = \{(\mathbf{x}_i, y_i) | i = 1, \ldots, n\} \)$, where $\( \mathbf{x}_i \)$ is the input and $\( y_i \)$ is the output, the goal is to predict the output $\( y_* \)$ at a new input $\( \mathbf{x}_* \)$.
 
 **References:**
 - Rasmussen, C. E., & Williams, C. K. I. (2006). *Gaussian Processes for Machine Learning*. The MIT Press.
