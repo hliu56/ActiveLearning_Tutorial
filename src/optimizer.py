@@ -30,7 +30,8 @@ def get_next_points(init_x, init_y, best_init_y, model, likelihood, bounds, batc
     )
 
     best_value = best_init_y
-    EI = ExpectedImprovement(model_bo, best_f=best_value, maximize=False)
+    # For analytical, it can change to minimize problem
+    EI = ExpectedImprovement(model_bo, best_f=best_value, maximize=True)
     
     new_point_mc, ac_values = optimize_acqf(
         acq_function=EI,
