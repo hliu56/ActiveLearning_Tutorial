@@ -4,11 +4,6 @@ import gpytorch
 class FancyGPWithPriors(gpytorch.models.ExactGP):
     """
     A Gaussian Process model with priors on lengthscale and outputscale.
-
-    Args:
-        train_x (torch.Tensor): Training inputs.
-        train_y (torch.Tensor): Training targets.
-        likelihood (gpytorch.likelihoods.GaussianLikelihood): Likelihood function.
     """
     def __init__(self, train_x, train_y, likelihood):
         super(FancyGPWithPriors, self).__init__(train_x, train_y, likelihood)
