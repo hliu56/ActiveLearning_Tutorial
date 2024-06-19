@@ -20,7 +20,7 @@ Bayes' rule is fundamental in probabilistic models, including Gaussian Processes
 
 **Formulation:**
 
-A Gaussian Process is fully specified by its mean function \( m(\mathbf{x}) \) and covariance function \( k(\mathbf{x}, \mathbf{x}') \):
+A Gaussian Process is fully specified by its mean function $\( m(\mathbf{x}) \)$ and covariance function $\( k(\mathbf{x}, \mathbf{x}') \)$:
 
 $$
 m(\mathbf{x}) = \mathbb{E}[f(\mathbf{x})]
