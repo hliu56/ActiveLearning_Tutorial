@@ -30,7 +30,7 @@ $$
 k(\mathbf{x}, \mathbf{x}') = \mathbb{E}[(f(\mathbf{x}) - m(\mathbf{x}))(f(\mathbf{x}') - m(\mathbf{x}'))]
 $$
 
-Given a dataset \( D = \{(\mathbf{x}_i, y_i) | i = 1, \ldots, n\} \), where \( \mathbf{x}_i \) is the input and \( y_i \) is the output, the goal is to predict the output \( y_* \) at a new input \( \mathbf{x}_* \).
+Given a dataset $\( D = \{(\mathbf{x}_i, y_i) | i = 1, \ldots, n\} \)$, where $\( \mathbf{x}_i \)$ is the input and $\( y_i \)$ is the output, the goal is to predict the output $\( y_* \)$ at a new input $\( \mathbf{x}_* \)$.
 
 **References:**
 - Rasmussen, C. E., & Williams, C. K. I. (2006). *Gaussian Processes for Machine Learning*. The MIT Press.
@@ -47,7 +47,7 @@ $$
 k(\mathbf{x}, \mathbf{x}') = \sigma_f^2 \exp\left( -\frac{|\mathbf{x} - \mathbf{x}'|^2}{2 \ell^2} \right)
 $$
 
-  where $\(\sigma_f^2\)$ is the variance and \(\ell\) is the length-scale.
+  where $\(\sigma_f^2\)$ is the variance and $\(\ell\)$ is the length-scale.
 
 - **Matérn Kernel:**
 
@@ -55,7 +55,7 @@ $$
 k(\mathbf{x}, \mathbf{x}') = \frac{1}{\Gamma(\nu)2^{\nu-1}} \left( \frac{\sqrt{2\nu} |\mathbf{x} - \mathbf{x}'|}{\ell} \right)^\nu K_\nu \left( \frac{\sqrt{2\nu} |\mathbf{x} - \mathbf{x}'|}{\ell} \right)
 $$
 
-  where \(K_\nu\) is a modified Bessel function and \(\nu\) is a parameter that controls the smoothness.
+  where $\(K_\nu\)$ is a modified Bessel function and $\(\nu\)$ is a parameter that controls the smoothness.
 
 ### Acquisition Function
 
@@ -69,7 +69,7 @@ $$
 EI(\mathbf{x}) = \mathbb{E}[\max(0, f(\mathbf{x}) - f(\mathbf{x}^+))]
 $$
 
-  where \( f(\mathbf{x}^+) \) is the best observed value.
+  where $\( f(\mathbf{x}^+) \)$ is the best observed value.
 
 - **Upper Confidence Bound (UCB):**
 
@@ -77,7 +77,7 @@ $$
 UCB(\mathbf{x}) = \mu(\mathbf{x}) + \kappa \sigma(\mathbf{x})
 $$
 
-  where \( \mu(\mathbf{x}) \) is the mean prediction and \( \sigma(\mathbf{x}) \) is the standard deviation.
+  where $\( \mu(\mathbf{x}) \)$ is the mean prediction and $\( \sigma(\mathbf{x}) \)$ is the standard deviation.
 
 **References:**
 - Brochu, E., Cora, V. M., & De Freitas, N. (2010). *A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning*.
