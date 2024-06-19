@@ -90,3 +90,21 @@ To install the necessary dependencies for this project, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/ActiveLearning_Tutorial.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd ActiveLearning_Tutorial
+4. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+
+   
+## Usage
+1. Ensure you are in the src directory:
+   ```bash
+   cd src
+   
+3. Execute the main.py script:
+   ```bash
+   python main.py
+
