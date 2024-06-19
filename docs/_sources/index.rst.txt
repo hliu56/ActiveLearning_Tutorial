@@ -14,6 +14,8 @@ Welcome to Active Learning Tutorial's documentation!
    modules
    usage
 
+`View on GitHub <https://hliu56.github.io/ActiveLearning_Tutorial>`_
+
 Indices and tables
 ==================
 
