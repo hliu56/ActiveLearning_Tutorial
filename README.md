@@ -47,7 +47,7 @@ $$
 k(\mathbf{x}, \mathbf{x}') = \sigma_f^2 \exp\left( -\frac{|\mathbf{x} - \mathbf{x}'|^2}{2 \ell^2} \right)
 $$
 
-  where \(\sigma_f^2\) is the variance and \(\ell\) is the length-scale.
+  where $\(\sigma_f^2\)$ is the variance and \(\ell\) is the length-scale.
 
 - **Matérn Kernel:**
 
