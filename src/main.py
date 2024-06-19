@@ -1,11 +1,11 @@
 import torch
 import math
 import matplotlib.pyplot as plt
-from target_function import target_function2
-from target_function import measure
-from model import FancyGPWithPriors
-from optimizer import get_next_points
-from test_parameters import Test_parameters
+from src.target_function import target_function2
+from src.target_function import measure
+from src.model import FancyGPWithPriors
+from src.optimizer import get_next_points
+from src.test_parameters import Test_parameters
 
 X_bounds = torch.tensor([-2.0, 2.0])
 train_x = torch.empty(2).uniform_(X_bounds[0], X_bounds[1])

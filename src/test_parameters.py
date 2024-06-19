@@ -4,10 +4,10 @@ import numpy as np
 import gpytorch
 import time
 import matplotlib.pyplot as plt
-from model import FancyGPWithPriors
-from optimizer import get_next_points
-from target_function import target_function2
-from target_function import measure
+from src.model import FancyGPWithPriors
+from src.optimizer import get_next_points
+from src.target_function import target_function2
+from src.target_function import measure
 
 def Test_parameters(train_x, train_y, noise, lengthscale, outputscale):
     """
